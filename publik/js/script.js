@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function (e) {
           text: "Anda akan diarahkan ke halaman utama!",
           icon: "success",
         }).then(() => {
-          window.location.href = "/";
+          window.location.href = "admin1/dashboard.html";
         });
 
       } else if (formSubmit.id == "form-register") {
